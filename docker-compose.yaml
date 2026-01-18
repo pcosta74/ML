@@ -1,0 +1,13 @@
+services:
+  jupyter:
+    image: jupyter/base-notebook:latest
+    container_name: data-science
+    working_dir: /home/jovyan/work
+    entrypoint: ["/home/jovyan/entrypoint.sh"]
+    user: root
+    volumes:
+      - ./:/home/jovyan/
+    ports:
+      - "8888:8888"
+
+
