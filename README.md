@@ -1,4 +1,4 @@
-# Data Science Learning Environment
+# Machine Learning Environment
 
 A comprehensive collection of Jupyter notebooks for learning data science, machine learning, and deep learning—running in a Docker-based environment.
 
